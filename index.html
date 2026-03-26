@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Personal CV website of Truong Van Long, Frontend Developer."
+    />
+    <title>Truong Van Long | Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <div class="background-layer" aria-hidden="true"></div>
+
+    <main class="page">
+      <header class="hero reveal">
+        <div class="hero-main">
+          <p class="hero-role" id="role"></p>
+          <h1 id="name">TRUONG VAN LONG</h1>
+          <p class="hero-summary" id="summary"></p>
+        </div>
+
+        <div class="hero-contact">
+          <ul id="contactList"></ul>
+          <a id="githubLink" class="btn" target="_blank" rel="noopener noreferrer">View GitHub</a>
+        </div>
+      </header>
+
+      <section class="panel reveal" aria-labelledby="educationTitle">
+        <h2 id="educationTitle">Education</h2>
+        <div id="education"></div>
+      </section>
+
+      <section class="grid-2col">
+        <div class="column">
+          <section class="panel reveal" aria-labelledby="skillsTitle">
+            <h2 id="skillsTitle">Technical Skills</h2>
+            <div id="skills"></div>
+          </section>
+
+          <section class="panel reveal" aria-labelledby="competenciesTitle">
+            <h2 id="competenciesTitle">Key Frontend Competencies</h2>
+            <ul id="competencies" class="tag-list"></ul>
+          </section>
+
+          <section class="panel reveal" aria-labelledby="additionalTitle">
+            <h2 id="additionalTitle">Additional Information</h2>
+            <ul id="additional" class="clean-list"></ul>
+          </section>
+        </div>
+
+        <div class="column">
+          <section class="panel reveal" aria-labelledby="projectsTitle">
+            <h2 id="projectsTitle">Projects</h2>
+            <div id="projects" class="project-list"></div>
+          </section>
+        </div>
+      </section>
+
+      <footer class="site-footer reveal">
+        <p>
+          <span id="footerName"></span>
+          <span> | Frontend Developer Intern Candidate</span>
+        </p>
+      </footer>
+    </main>
+
+    <script type="module" src="assets/js/main.js"></script>
+  </body>
+</html>
