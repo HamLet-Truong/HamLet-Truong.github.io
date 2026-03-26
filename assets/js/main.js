@@ -1,4 +1,4 @@
-import { cvData } from "./cv-data.js";
+const { cvData } = globalThis;
 
 let currentLanguage = "vi";
 

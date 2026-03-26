@@ -1,4 +1,4 @@
-export const cvData = {
+globalThis.cvData = {
   name: "TRUONG VAN LONG",
   profile: {
     dob: "18/02/2004",
