@@ -28,7 +28,8 @@ globalThis.cvData = {
         dob: "Ngày sinh",
         phone: "Điện thoại",
         address: "Địa chỉ",
-        email: "Email"
+        email: "Email",
+        github: "GitHub"
       },
       githubButton: "GitHub",
       footerRole: " | Ứng viên Frontend Developer Intern",
@@ -50,7 +51,7 @@ globalThis.cvData = {
       technicalSkills: [
         {
           label: "Ngôn ngữ",
-          items: ["JavaScript", "TypeScript", "HTML5", "CSS3/SASS"]
+          items: ["JavaScript", "TypeScript", "PHP", "HTML5", "CSS3/SASS"]
         },
         {
           label: "Framework/Thư viện",
@@ -129,7 +130,8 @@ globalThis.cvData = {
         dob: "Date of Birth",
         phone: "Phone",
         address: "Address",
-        email: "Email"
+        email: "Email",
+        github: "GitHub"
       },
       githubButton: "GitHub",
       footerRole: " | Frontend Developer Intern Candidate",
@@ -151,7 +153,7 @@ globalThis.cvData = {
       technicalSkills: [
         {
           label: "Languages",
-          items: ["JavaScript", "TypeScript", "HTML5", "CSS3/SASS"]
+          items: ["JavaScript", "TypeScript", "PHP", "HTML5", "CSS3/SASS"]
         },
         {
           label: "Frameworks/Libraries",

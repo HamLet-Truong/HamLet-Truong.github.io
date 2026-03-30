@@ -12,7 +12,8 @@ function renderContactInfo() {
     `${t.contactLabel.dob}: ${cvData.profile.dob}`,
     `${t.contactLabel.phone}: ${cvData.profile.phone}`,
     `${t.contactLabel.address}: ${cvData.profile.address[currentLanguage]}`,
-    `${t.contactLabel.email}: <a href="mailto:${cvData.profile.email}">${cvData.profile.email}</a>`
+    `${t.contactLabel.email}: <a href="mailto:${cvData.profile.email}">${cvData.profile.email}</a>`,
+    `${t.contactLabel.github}: <a href="${cvData.profile.github}" target="_blank" rel="noopener noreferrer">${cvData.profile.github}</a>`
   ];
 
   document.getElementById("contactList").innerHTML = contactItems
@@ -101,10 +102,6 @@ function applyBaseContentAndLabels() {
   document.getElementById("projectsTitle").textContent = t.section.projects;
   document.title = t.pageTitle;
   document.documentElement.lang = currentLanguage;
-
-  const githubLink = document.getElementById("githubLink");
-  githubLink.href = cvData.profile.github;
-  githubLink.textContent = t.githubButton;
 }
 
 function updateLanguageButtons() {
