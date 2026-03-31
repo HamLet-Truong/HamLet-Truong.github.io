@@ -74,6 +74,7 @@ globalThis.cvData = {
         {
           name: "Vietnam Heritage Journey",
           role: "Frontend Developer",
+          period: "09/2025 - 12/2025",
           stack: "React, Vite, Tailwind CSS, Zustand, React Leaflet, Axios",
           highlights: [
             "Phát triển hơn 10 màn hình responsive cho tìm kiếm tour, đặt hướng dẫn viên và hồ sơ người dùng.",
@@ -85,6 +86,7 @@ globalThis.cvData = {
         {
           name: "HongNy Book Shop",
           role: "Frontend Developer",
+          period: "12/2025 - 03/2026",
           stack: "Spring Boot, Thymeleaf, Bootstrap 5, JavaScript (AJAX), MySQL",
           highlights: [
             "Xây dựng giao diện responsive cho tìm kiếm, lọc và mua sách.",
@@ -176,6 +178,7 @@ globalThis.cvData = {
         {
           name: "Vietnam Heritage Journey",
           role: "Frontend Developer",
+          period: "09/2025 - 12/2025",
           stack: "React, Vite, Tailwind CSS, Zustand, React Leaflet, Axios",
           highlights: [
             "Built 10+ responsive interfaces for tour search, guide booking, and user profile flows.",
@@ -187,6 +190,7 @@ globalThis.cvData = {
         {
           name: "HongNy Book Shop",
           role: "Frontend Developer",
+          period: "12/2025 - 03/2026",
           stack: "Spring Boot, Thymeleaf, Bootstrap 5, JavaScript (AJAX), MySQL",
           highlights: [
             "Built responsive pages for searching, filtering, and shopping features.",

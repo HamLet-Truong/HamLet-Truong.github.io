@@ -62,8 +62,7 @@ function renderProjects() {
       (project) => `
       <article class="project-card">
         <header>
-          <h3>${project.name}</h3>
-          <p class="project-role">${project.role}</p>
+          <h3>${project.name} <span class="project-role" style="font-weight: 400; margin-top: 0;">| ${project.role} | ${project.period}</span></h3>
           <p class="project-stack"><strong>${t.labels.techStack}:</strong> ${project.stack}</p>
         </header>
         <ul class="list">${createList(project.highlights)}</ul>
